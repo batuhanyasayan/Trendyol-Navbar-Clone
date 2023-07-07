@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.top-img{
+    background-image: url(img/t.jpg);
+    width: 100%;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+}
+
+.logo img{
+    width: 150px;
+    height: 36px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    padding: 0 10rem;
+    background-color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: orangered;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 13px;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: end;
+    padding:  0;
+}
+
+.nav-top a{
+    color:rgb(138, 138, 138);
+    font-size: 13px;
+}
+.nav-top a:hover{
+    color:rgb(77, 76, 76);
+}
+
+.nav-center{
+    margin-top: 10px;
+}
+.search{
+    position: relative;
+}
+.search input{
+    width: 580px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}   
+
+.search i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    color: orange;
+}
+
+.nav-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 0.6rem 0;
+    margin-top: 10px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+
+.btns button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+.btns button:hover{
+   color: orangered !important;
+}
